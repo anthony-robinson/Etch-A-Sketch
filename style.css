@@ -1,6 +1,5 @@
 *{
   background: lightblue;
-  margin: 0;
   box-sizing: border-box;
 }
 body{
@@ -8,23 +7,20 @@ body{
   font-size: 18;
 }
 
-#reset{
-  background-color:red;
-  position: absolute;
-  left: 400px;
-  width: 200px;
+button{
+  background-color: red;
+  position: relative;
+  color:#ccc;
   height: 20px;
-  color: #ccc;
+  width: 200px;
+}
+
+#reset{
+  left: 180px;
 }
 
 #newboard{
-  background-color: red;
-  position: absolute;
-  color: #ccc;
-  left: 700px;
-  width: 200px;
-  height: 20px;
-
+  left: 310px;
 }
 
 button:hover{
@@ -36,9 +32,16 @@ div{
   display: block;
 }
 
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 .p{
   display: block;
-  margin: auto;
+  position: relative;
+  right: 100px;
 }
 
 .center{
@@ -47,13 +50,14 @@ div{
   padding: 10px;
 }
 
+
 #grid{
-  position:absolute;
-  left: 25%;
-  top : 10%;
+  position: relative;
+  left: 150px;
+  bottom: -5px;
+  top : 40%;
   width: 600px;
   height: 600px;
-  margin: 0 auto;
   display: grid;
   align-items: center;
   background-color: white;
